@@ -25,8 +25,9 @@
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">Things I Love to Do</a></li>
-						<li><a href="#three">My Projects</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#three">My Research</a></li>
+						<li><a href="#four">My Programming</a></li>
+						<li><a href="#five">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -41,6 +42,7 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
+
 
 				<!-- Main -->
 					<div id="main">
@@ -76,36 +78,52 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>My projects</h3>
-									<p>I'm just beginning my journey as a graduate student and a data analyst, but I'm silly proud of these projects! Use links below to navigate to my publications, my first R package, and my first Shiny website</p>
+									<h3>My Research</h3>
+									<p>I've been lucky to work in a diverse research areas, whether studying organisms from the deep ocean to the biochemistry of anaerobic respiration. Feel free to peruse my published work on my <a href="https://scholar.google.com/citations?user=QhD-QWoAAAAJ&hl=en">Google Scholar page</a></p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/coral_pic.PNG" alt="" /></a>
 											<div class="inner">
-												<h4>My publications</h4>
-												<p>Use <a href="https://scholar.google.com/citations?user=QhD-QWoAAAAJ&hl=en">this link</a> to access my Google Scholar page, where you can read my work in anaerobic respiration and deep-sea coral reproduction (more to come soon!) </p>
-											</div>
+												<h4>Reproduction in deep-sea coral</h4>
+												<p>When you picture coral, you might imagine sun-drenched reefs populated by sassy little clownfish. But there's a whole world of coral most of us will never get to see. <em>Balanophyllia</em> is a solitary cup coral that looks like a cursed ice-cream cone and flourishes in some of the darkest, coldest waters on Earth. <a href = "https://link.springer.com/article/10.1007/s00300-021-02854-z">In this work,</a> we characterized the reproduction of this deep-sea coral using histology and SEM.</p>
+										</div>
 										</article>
+										<article>
+											<a href="#" class="image"><img src="images/shew_pic.png" alt="" /></a>
+											<div class="inner">
+												<h4>Anaerobic respiration</h4>
+												<p><em>S. oneidensis</em> is like a labrador retriever: it'll eat anything you drop on the floor. This freshwater bacterium is able to use an astonishing range of terminal electron acceptors during anaerobic respiration. Central to this versatility is the use of redox-active cofactors called flavins. <a href = "https://journals.asm.org/doi/10.1128/AEM.00852-19?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed">In this work,</a> we examined the synthesis and acquisition of flavins in the periplasm of this charismatic microbe.</p>
+										</div>
+										</article>
+									</div>
+								</section>
+
+
+							<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>My Programming</h3>
+									<p>I'm just beginning my journey as a graduate student and a data analyst, but I'm silly proud of these projects! Use links below to navigate my first R package and my first Shiny website</p>
+									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/Rplot.png" alt="" /></a>
 											<div class="inner">
 												<h4>The doublr package</h4>
-												<p>This is my first R package, and it allows you to interactively calculate doubling times from growth curve data in a Shiny app! <a href="https://github.com/gus-pendleton/doublr">This link</a> will take you to the Github page for the package, while you are welcome to install this package using devtools::install_github("gus-pendleton/doublr",build_vignettes=TRUE)</p>
+												<p>This is my first R package, and it allows you to interactively calculate doubling times from growth curve data in a Shiny app! <a href="https://github.com/gus-pendleton/doublr">This link</a> will take you to the Github page for the package, while you can click here to copy the code to install this package in R: <input type = "button" onclick="copyText()" id = "myButton1" value = "Copy code"></input></p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/shiny_cats.PNG" alt="" /></a>
 											<div class="inner">
 												<h4>Fat Cats and Data Science</h4>
-												<p><a href = "https://augustus-pendleton.shinyapps.io/Shiny_Cats/">This website</a> is probably the dumbest thing I've ever made and I'm so proud of it. I expanded my skills in machine learning and shiny applications to create a website that walks you through imaginary data science projects with my cats. I hope you enjoy!</p>
+												<p><a href = "https://augustus-pendleton.shinyapps.io/Shiny_Cats/">This website</a> is probably the dumbest thing I've ever made and I'm so proud of it. I expanded my skills in machine learning and shiny applications to create a website that walks you through imaginary data science projects with my cats (they are the fat cats in question). I hope you enjoy!</p>
 											</div>
 										</article>
 									</div>
 								</div>
 							</section>
-
-						<!-- Four -->
-							<section id="four">
+							<!-- Five -->
+							<section id="five">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Feel free to reach out via email at arp277@cornell.edu or on Twitter at @AugustusPendle1</p>
@@ -464,6 +482,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src = "assets/js/tab.js"></script>
+			<script src = "assets/js/collapsible.js"></script>
+			<script src = "assets/js/copy_text.js"></script>
+
 
 	</body>
 </html>
