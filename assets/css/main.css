@@ -3261,6 +3261,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.features article .banner {
+				display: block;
+				width: 100%;
+			}
+
 		/* Header */
 
 			#header {
