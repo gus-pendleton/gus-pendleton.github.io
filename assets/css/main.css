@@ -1802,6 +1802,8 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
+
+
 	label {
 		color: #777;
 		display: block;
@@ -2692,6 +2694,12 @@ input, select, textarea {
 			padding-right: 2.5em;
 			vertical-align: middle;
 			width: 48%;
+		}
+		.features article .banner {
+			display: inline-block;
+			padding-right: 2.5em;
+			vertical-align: middle;
+			width: 100%;
 		}
 
 			.features article .image img {
